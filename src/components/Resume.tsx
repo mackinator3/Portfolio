@@ -2,14 +2,14 @@ import { FontAwesomeIcon }
     from '@fortawesome/react-fontawesome';
 import { faFileDownload }
     from '@fortawesome/free-solid-svg-icons';
-import Breadcrumbs from './breadcrumbs';
+import Breadcrumbs from './Breadcrumbs';
 import Skills from './Skills';
 import Header from './Header';
 import Footer from './Footer';
 import { useState } from 'react';
 
 function Resume() {
-    const [isActive, setIsActive] = useState(false);
+    const [isActive] = useState(true);
     const breadcrumbsPaths =
         [
             { title: 'Home', to: '/' },
@@ -37,7 +37,7 @@ function Resume() {
                         Download Resume
                     </a>
                     {/* Include the Skills component here */}
-                        <Skills isActive={() => setIsActive(true)} />
+                        <Skills isActive={isActive} />
                 </div>
             </div>
             </section>

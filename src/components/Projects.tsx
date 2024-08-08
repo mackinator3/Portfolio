@@ -2,7 +2,7 @@
 import { FontAwesomeIcon }
     from '@fortawesome/react-fontawesome';
 import { faCode } from '@fortawesome/free-solid-svg-icons';
-import Breadcrumbs from './breadcrumbs';
+import Breadcrumbs from './Breadcrumbs';
 import Header from './Header';
 import Footer from './Footer';
 
