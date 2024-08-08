@@ -7,6 +7,7 @@ import Skills from './Skills';
 import Header from './Header';
 import Footer from './Footer';
 import { useState } from 'react';
+import resume from './documents/Justin_Mack_Resume.pdf'
 
 function Resume() {
     const [isActive] = useState(true);
@@ -32,7 +33,7 @@ function Resume() {
                         Download my resume to learn more
                         about my professional experience and skills.
                     </p>
-                    <a href="documents/Justin_Mack_Resume.pdf"
+                        <a href={resume}
                         className="resume-download-btn" download>
                         Download Resume
                     </a>
