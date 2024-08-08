@@ -1,8 +1,8 @@
 {
-  "homepage": "https://mackinator3.github.io/Portfolio/",
   "name": "portfolio",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
+  "homepage": "https://mackinator3.github.io/Portfolio/",
   "type": "module",
   "scripts": {
     "dev": "vite",
