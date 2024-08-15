@@ -14,7 +14,7 @@ function Resume() {
     const breadcrumbsPaths =
         [
             { title: 'Home', to: '/' },
-            { title: 'Reumse', to: '/resume' }
+            { title: 'Resume', to: '/resume' }
         ]; 
     return (
         <>

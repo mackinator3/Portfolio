@@ -378,6 +378,10 @@ body {
     font-weight: bold;
 }
 
+.breadcrumb-item > span {
+    color: #343a40;
+}
+
 .breadcrumb-item span::before {
     display: none;
     /* Remove separator for the last breadcrumb */
